@@ -1,0 +1,10 @@
+hackzurich.ddns.net:5000/
+/login: user, password = (True, False)
+/adduser: user password = (True, False)
+/addcard: question, answer (cardid)
+/addimage: cardid, image = (True, False)
+/sendresult: user, cardid, result = (True,False)
+/getunis: = list of universities
+/gettags: uni = list of tags
+/getcards: user, tags = list of cards { question, answer, image}
+
